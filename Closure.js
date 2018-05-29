@@ -1,6 +1,6 @@
 //Closure
 
-function F1(){
+var func = function F1(){
 	var x =5;
 	var y = 10;
 	function F2(){
@@ -10,14 +10,12 @@ function F1(){
 		console.log(x + y + p +z);
 
 	}
-	//console.log(F2);
+	console.log(F2);
 	return F2;
 
 }
 
-var func = F1();
-//console.log(func)
-func();
+console.log(func());
 
 
 test
